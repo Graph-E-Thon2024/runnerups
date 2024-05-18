@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         firstPage.drawText(name, {
             x: centerXName,
             y: 350,
-            size: 28,
+            size: 26,
             font: MTCORSVA,
             color: rgb(0, 0, 0),
         });
