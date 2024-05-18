@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 collegeName.reportValidity();
             }
         } else {
-            alert("Don't be smart buddy. Please enter a valid name.");
+            alert("Please enter a valid name.");
         }
     });
 
