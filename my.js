@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const existingPdfBytes = await fetch("./cert.pdf").then((res) => res.arrayBuffer());
         const pdfDoc = await PDFDocument.load(existingPdfBytes);
         pdfDoc.registerFontkit(fontkit);
-        const fontBytes = await fetch("./MTCORSVA.TTF").then((res) => res.arrayBuffer());
+        const fontBytes = await fetch("./NetflixSans-Regular.otf").then((res) => res.arrayBuffer());
         const MTCORSVA = await pdfDoc.embedFont(fontBytes);
         const pages = pdfDoc.getPages();
         const firstPage = pages[0];
